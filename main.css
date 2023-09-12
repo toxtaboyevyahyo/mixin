@@ -301,3 +301,42 @@ ul {
     font-weight: 500;
     line-height: 150%;
 }
+
+
+.terminal{
+    padding-bottom: 130px;
+}
+.terminal_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.terminal_title{
+    color: var(--Font, #0C1523);
+    font-family: Inter;
+    font-size: 31.912px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.terminal_text{
+    color: var(--Font, #0C1523);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.terminal_btn{
+    color: var(--Gray, #FAFBFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 15px 25px;
+    border-radius: 9px;
+    border: none;
+    background: var(--Font, #0C1523);
+}
