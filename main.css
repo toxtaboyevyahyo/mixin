@@ -126,12 +126,55 @@ ul {
     color: var(--Font, #0C1523);
     font-family: Inter;
     border: none;
+    border-radius: 9px;
     padding: 15px 25px;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
-.img{
-    margin-right: -200px;
+.hero_list{
+    display: flex;
+
+    flex-wrap: wrap;
 }
+.hero_item{
+    width: 180px;
+    margin: 40px;
+    
+    height: 66px;
+}
+
+
+.service{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.service_title{
+    color: var(--Font, #0C1523);
+    text-align: center;
+    font-family: Inter;
+    font-size: 42.536px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 60px;
+}
+.service_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.title{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.text{
+    color: var(--Font, #0C1523);
+    font-family: Inter;
+    font-size: 13.333px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+ 
