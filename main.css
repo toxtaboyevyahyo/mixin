@@ -449,3 +449,20 @@ ul {
     font-weight: 500;
     line-height: 150%;
 }
+
+
+.about{
+    background: var(--Btn, #41F5C0);
+    padding: 20px 20px 20px 20px;
+}
+.about_container{
+    display: flex;
+    justify-content: center;
+}
+.about_btn{
+    border-radius: 50%;
+    padding: 5px 5px;
+    stroke-width: 1px;
+    stroke: var(--Font, #0C1523);
+    background-color: var(--Btn, #41F5C0);;
+}
